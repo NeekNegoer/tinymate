@@ -29,7 +29,7 @@ over I2C using just 2 of the ATtiny's.
 
 ---
 
-## 2026-11-16 · 18:15–20:45 · ~2h20 (7 min break)
+## 2026-11-16 · 18:15–20:45 · ~2h20
 
 **What I did:** built the parts list on DigiKey (~$9 total, all in stock), then my
 first ever KiCad project: full schematic (ATtiny412, MCP23017, pull-ups, status LED,
