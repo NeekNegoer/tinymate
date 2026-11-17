@@ -60,3 +60,35 @@ footprints → PCB, net labels, PWR_FLAG for ERC, reading the ratsnest, and keep
 courtyards at least 1 mm from the board edge.
 
 **Next step:** route the traces, add a ground plane and run DRC.
+
+---
+
+## 2026-11-17 · 17:30–20:15 · ~2h30 (in between calls at work)
+
+**What I did:** set the board rules for OSH Park (0.16 mm trace/clearance, 0.35 mm
+drill, 0.75 mm vias, 0.5 mm traces for +5V), routed every connection (power, I2C,
+UART, UPDI, LED and the 16 matrix lines to J3) and added a GND plane on both layers.
+
+![PCB 3D, routed](images/2026-11-17-pcb-3d-routed.png)
+
+**Problems:**
+- The first DRC run had ~50 violations. Almost all were the same one: my vias had a
+  0.175 mm annular ring, under the 0.18 mm minimum. Fixed by bumping vias to 0.75 mm
+  and setting clearance to 0.16 mm (still inside OSH Park's 6 mil limit).
+- The rest were two vias too close together, a few leftover vias that did nothing and
+  GND pads hanging on a single thermal spoke. I couldn't drag the vias cleanly with the
+  mouse, so Claude (AI) edited the .kicad_pcb file directly: moved one via 0.5 mm,
+  removed 3 unused vias and tuned the GND zone (smaller clearance and thermals, solid
+  connection for SMD pads). Result: **0 DRC errors**, 6 silkscreen warnings left.
+
+**Logo:** made a mascot, a pawn running on 8 chip-pin legs. The idea, sketches and
+feedback were mine; Claude drew the iterations. It's going on the back silkscreen.
+
+![TinyMate logo](images/tinymate-logo.png)
+
+**Learned:** what an annular ring is and why via size matters; that the manufacturer's
+limits decide the clearance, not KiCad's defaults; thermal reliefs and "starved
+thermals"; routing a matrix with one copper layer per direction.
+
+**Next step:** clean up the silkscreen, place the logo, add part numbers (MPN) to the
+BOM and submit to the 8-Pin Grant.
