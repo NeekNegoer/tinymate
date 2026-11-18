@@ -3940,6 +3940,17 @@
 				)
 			)
 		)
+		(property "MPN" "PRPC040SAAN-RC"
+			(at 58.42 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "7883f8ec-af0c-43ea-a9d8-0c4359a915fe")
 		)
@@ -4260,6 +4271,17 @@
 				)
 			)
 		)
+		(property "MPN" "ATTINY412-SSN"
+			(at 101.6 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "cbb7f843-e2a8-4dcc-afaa-f58187681576")
 		)
@@ -4504,6 +4526,17 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PRPC040SAAN-RC"
 			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -4794,6 +4827,17 @@
 				)
 			)
 		)
+		(property "MPN" "CL21B106KOQNNNE"
+			(at 181.61 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "27f7407f-35fc-414d-b86a-18224f0c9c4c")
 		)
@@ -4866,6 +4910,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
 			(at 69.85 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5026,6 +5081,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5441,6 +5507,17 @@
 				)
 			)
 		)
+		(property "MPN" "LTST-C171KRKT"
+			(at 124.46 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a88a2ef2-4842-4578-9aa2-c337d89c638b")
 		)
@@ -5513,6 +5590,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL21B104KBCNNNC"
 			(at 167.64 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5761,6 +5849,17 @@
 				)
 			)
 		)
+		(property "MPN" "RC0805FR-071KL"
+			(at 125.73 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c65f72ac-fdf3-498d-8c30-9a9302cf7463")
 		)
@@ -5833,6 +5932,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 58.42 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PRPC040SAAN-RC"
 			(at 58.42 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5999,6 +6109,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 80.01 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-074K7L"
 			(at 80.01 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6249,6 +6370,17 @@
 				)
 			)
 		)
+		(property "MPN" "MCP23017-E/SO"
+			(at 149.86 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7ade4e6c-9665-4030-b8af-c70c3e558af5")
 		)
@@ -6399,6 +6531,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 130.81 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "RC0805FR-0710KL"
 			(at 130.81 77.47 0)
 			(hide yes)
 			(show_name no)

@@ -1,0 +1,11 @@
+Reference,Qty on board,Value,Footprint,Manufacturer,Part Number,DigiKey Part Number,Order Qty,Unit Price (USD),Extended Price (USD)
+U1,1,ATtiny412-SS,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Microchip Technology,ATTINY412-SSN,ATTINY412-SSN-ND,2,0.56,1.12
+U2,1,MCP23017,Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm,Microchip Technology,MCP23017-E/SO,MCP23017-E/SO-ND,1,1.62,1.62
+"R1,R2",2,4.7k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,YAGEO,RC0805FR-074K7L,311-4.70KCRCT-ND,10,0.038,0.38
+R3,1,1k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,YAGEO,RC0805FR-071KL,311-1.00KCRCT-ND,10,0.038,0.38
+R4,1,10k,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,YAGEO,RC0805FR-0710KL,311-10.0KCRCT-ND,10,0.038,0.38
+"C1,C2",2,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,Samsung Electro-Mechanics,CL21B104KBCNNNC,1276-1003-1-ND,10,0.045,0.45
+C3,1,10u,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,Samsung Electro-Mechanics,CL21B106KOQNNNE,1276-2872-1-ND,5,0.27,1.35
+D1,1,LED red,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,Lite-On Inc.,LTST-C171KRKT,160-1427-1-ND,5,0.16,0.80
+"J1,J2,J3",3,"Pin headers 1x4, 1x3, 2x8 (cut from 40-pin strips)",Connector_PinHeader_2.54mm:PinHeader_1x04/1x03/2x08_P2.54mm_Vertical,Sullins Connector Solutions,PRPC040SAAN-RC,S1011EC-40-ND,2,1.23,2.46
+,,,,,,,,TOTAL,8.94
