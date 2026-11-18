@@ -92,3 +92,33 @@ thermals"; routing a matrix with one copper layer per direction.
 
 **Next step:** clean up the silkscreen, place the logo, add part numbers (MPN) to the
 BOM and submit to the 8-Pin Grant.
+
+---
+
+## 2026-11-18 · 13:30–15:00 + 18:00–19:20 · ~2h50
+
+**What I did:** finished the board. Added silkscreen labels on both sides (pin names
+for J1/J2, a legend for the J3 matrix), placed the logo on the back silkscreen, filled
+in the part numbers (MPN) for every component, built the BOM with DigiKey part numbers
+and got a quote from OSH Park.
+
+![OSH Park preview](images/2026-11-18-oshpark-preview.png)
+
+**Problems:**
+- J3's 16 pins are too close together to label each one on the front. I put just "R"
+  and "C" above the two columns and wrote the full legend on the back
+  (R = ROW0–7, odd pins / C = COL0–7, even pins).
+- KiCad's BOM export came out with the columns in the wrong place and no MPN, so I
+  rebuilt the CSV from the schematic and the DigiKey cart, with Claude's help.
+- OSH Park warns that it doesn't refill zones, so the GND pour has to be filled in
+  KiCad before uploading. The preview shows it filled. DRC is still at
+  **0 errors, 0 warnings**.
+
+**Cost:** 3 boards for $7.60 at OSH Park + $8.94 in parts at DigiKey = **$16.54**,
+under the $35 limit.
+
+**Learned:** how to bring an image into the silkscreen with the Image Converter, what
+an MPN is and why the BOM needs it, and that a manufacturer can quote straight from a
+.kicad_pcb file.
+
+**Next step:** submit to the 8-Pin Grant and wait for the boards.
